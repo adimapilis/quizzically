@@ -1,0 +1,93 @@
+body {
+  font-family: arial;
+  display: flex;
+  background-image: radial-gradient(circle, #ffffff, #f9f8ff, #f1f2ff, #e8ecff, #dee6ff, #d6e3ff, #cde0ff, #c3deff, #baddff, #afdcff, #a4dcff, #98dbff);
+  justify-content: center;
+  margin: 20px;
+
+}
+
+main {
+  display: flex;
+  
+  align-items: center;
+  justify-content: center;
+
+}
+
+.home-page{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 100px;
+  padding: 20px 60px 60px 60px
+}
+
+.home-title {
+  color: rgb(10 20 130);
+  margin-bottom: 20px;
+}
+
+.home-text {
+  color: rgb(80 70 190);
+  margin-top: 0px;
+}
+
+.choice {
+  margin-bottom: 10px;
+}
+
+.start-button {
+  background-color: rgb(80 70 190);
+  padding: 10px 40px;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+
+.trivia-answers {
+  display: flex;
+  justify-content: left;
+  gap: 20px;
+}
+
+.trivia-question {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px
+}
+
+.question-item {
+  color: rgb(20, 8, 112);
+  margin-bottom: 30px
+}
+
+.btn-answer {
+  padding: 5px 20px;
+  min-width: 70px;
+  border-color: rgb(20, 8, 112);
+  border-radius: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: rgb(20, 8, 112);
+}
+
+.btn-submit {
+  padding: 10px 20px;
+  color: white;
+  background-color: rgb(20, 8, 112);
+  border-radius: 15px;
+  height: 40px;
+}
+
+.bottom-section{
+  display:flex;
+  align-items: center;
+}
+
+.score {
+  margin-left: 200px;
+  font-size: 20px;
+  color: rgb(20, 8, 112);
+}
